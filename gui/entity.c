@@ -1,6 +1,6 @@
 #include "entity.h"
 
-Entity entityInit(int x, int y, int width, int height, SDL_Texture * texture) {
+Entity entityCreate(int x, int y, int width, int height, SDL_Texture * texture) {
 
   Entity entity;
   entity.position[0] = x;

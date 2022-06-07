@@ -10,7 +10,7 @@ typedef struct _Entity {
 } Entity;
 
 // Fuction to initialize entity with necessary components
-Entity entityInit(int x, int y, int width, int height, SDL_Texture * texture);
+Entity entityCreate(int x, int y, int width, int height, SDL_Texture * texture);
 
 // Function to change texture(color) of the frame obeying the rules
 void entityChangeTexture(Entity * entity, SDL_Texture * texture);

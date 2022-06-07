@@ -1,6 +1,6 @@
 #include "screen.h"
 
-Screen screenInit(int width, int height, float scaleX, float scaleY) {
+Screen screenCreate(int width, int height, float scaleX, float scaleY) {
   Screen screen;
   screen.scaleX = scaleX;
   screen.scaleY = scaleY;

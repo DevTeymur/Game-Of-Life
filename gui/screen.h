@@ -13,7 +13,7 @@ typedef struct _Screen {
 } Screen;
 
 // Function to initalze screen
-Screen screenInit(int width, int height, float scaleX, float scaleY);
+Screen screenCreate(int width, int height, float scaleX, float scaleY);
 
 // Loads the texture to the screen in order to display
 SDL_Texture * screenLoadTexture(Screen * screen, const char * filePath);
