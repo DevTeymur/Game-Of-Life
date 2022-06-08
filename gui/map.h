@@ -4,7 +4,7 @@
 #include <unistd.h>
 
 #include "screen.h"
-// #include "../game/board.h"
+#include "../game/board.h"
 
 
 typedef struct _Map {
@@ -17,7 +17,7 @@ typedef struct _Map {
 Map mapCreate(int width, int height, int cols, int rows);
 
 // Main function to run the game
-void mapStartGame(Map * map);
+void startGame(Map * map);
 
 // Function to display changes of the cells updating the map while the game running
 void mapShow(Map * map);
