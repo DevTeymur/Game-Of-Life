@@ -28,5 +28,19 @@ bool cellBelong(Board *board, int *coordinate);
 // dead - false
 bool getCellState(Board *board, int col, int row);
 
+// Function to return the neighbors of the given cell
+int getNeighbors(Board *board, int col, int row, Cell *neighbors);
+
+// Counting the alive cells in order to change within the rules
+int countAliveNeighbors(Board *board, int col, int row);
+
+// Keeping copy of the "old" table in order to check conditions on it
+void duplicateTable(Board *board);
+
+// Function generating new table using old table and rules
+void generateNext(Board *board);
+
 // Using to fill the table with random states at the beginning
 void randFill(Board *board);
+
+#endif // __BOARD_H__
