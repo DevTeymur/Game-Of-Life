@@ -1,0 +1,9 @@
+/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/CMakeFiles/rebuild_cache.dir
+/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/CMakeFiles/edit_cache.dir
+/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/CMakeFiles/gameoflife.dir
+/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/game/CMakeFiles/rebuild_cache.dir
+/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/game/CMakeFiles/edit_cache.dir
+/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/game/CMakeFiles/game.dir
+/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/gui/CMakeFiles/rebuild_cache.dir
+/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/gui/CMakeFiles/edit_cache.dir
+/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/gui/CMakeFiles/gui.dir
