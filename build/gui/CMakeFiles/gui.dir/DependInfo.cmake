@@ -13,6 +13,8 @@ set(CMAKE_C_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../gui"
+  "/usr/include/SDL2"
+  "/usr/local/include/SDL2"
   )
 
 # Targets to which this target links.

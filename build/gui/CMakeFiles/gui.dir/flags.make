@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I"/home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui" 
+C_INCLUDES = -I"/home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui" -I/usr/include/SDL2 -I/usr/local/include/SDL2 
 
