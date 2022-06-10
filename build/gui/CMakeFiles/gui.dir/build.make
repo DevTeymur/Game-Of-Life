@@ -83,31 +83,31 @@ gui/CMakeFiles/gui.dir/map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gui.dir/map.c.s"
 	cd "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/gui" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/map.c" -o CMakeFiles/gui.dir/map.c.s
 
-gui/CMakeFiles/gui.dir/screen.c.o: gui/CMakeFiles/gui.dir/flags.make
-gui/CMakeFiles/gui.dir/screen.c.o: ../gui/screen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object gui/CMakeFiles/gui.dir/screen.c.o"
-	cd "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/gui" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gui.dir/screen.c.o   -c "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/screen.c"
+gui/CMakeFiles/gui.dir/window.c.o: gui/CMakeFiles/gui.dir/flags.make
+gui/CMakeFiles/gui.dir/window.c.o: ../gui/window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object gui/CMakeFiles/gui.dir/window.c.o"
+	cd "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/gui" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gui.dir/window.c.o   -c "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/window.c"
 
-gui/CMakeFiles/gui.dir/screen.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gui.dir/screen.c.i"
-	cd "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/gui" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/screen.c" > CMakeFiles/gui.dir/screen.c.i
+gui/CMakeFiles/gui.dir/window.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gui.dir/window.c.i"
+	cd "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/gui" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/window.c" > CMakeFiles/gui.dir/window.c.i
 
-gui/CMakeFiles/gui.dir/screen.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gui.dir/screen.c.s"
-	cd "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/gui" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/screen.c" -o CMakeFiles/gui.dir/screen.c.s
+gui/CMakeFiles/gui.dir/window.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gui.dir/window.c.s"
+	cd "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/gui" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/window.c" -o CMakeFiles/gui.dir/window.c.s
 
 # Object files for target gui
 gui_OBJECTS = \
 "CMakeFiles/gui.dir/entity.c.o" \
 "CMakeFiles/gui.dir/map.c.o" \
-"CMakeFiles/gui.dir/screen.c.o"
+"CMakeFiles/gui.dir/window.c.o"
 
 # External object files for target gui
 gui_EXTERNAL_OBJECTS =
 
 gui/libgui.a: gui/CMakeFiles/gui.dir/entity.c.o
 gui/libgui.a: gui/CMakeFiles/gui.dir/map.c.o
-gui/libgui.a: gui/CMakeFiles/gui.dir/screen.c.o
+gui/libgui.a: gui/CMakeFiles/gui.dir/window.c.o
 gui/libgui.a: gui/CMakeFiles/gui.dir/build.make
 gui/libgui.a: gui/CMakeFiles/gui.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libgui.a"

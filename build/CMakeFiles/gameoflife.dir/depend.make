@@ -6,6 +6,6 @@ CMakeFiles/gameoflife.dir/main.c.o: ../game/cell.h
 CMakeFiles/gameoflife.dir/main.c.o: ../gui/entity.h
 CMakeFiles/gameoflife.dir/main.c.o: ../gui/map.c
 CMakeFiles/gameoflife.dir/main.c.o: ../gui/map.h
-CMakeFiles/gameoflife.dir/main.c.o: ../gui/screen.h
+CMakeFiles/gameoflife.dir/main.c.o: ../gui/window.h
 CMakeFiles/gameoflife.dir/main.c.o: ../main.c
 

@@ -1,4 +1,4 @@
-#include "screen.h"
+#include "window.h"
 
 Screen screenCreate(int width, int height, float scaleX, float scaleY) {
   Screen screen;

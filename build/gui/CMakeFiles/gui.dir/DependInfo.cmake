@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/entity.c" "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/gui/CMakeFiles/gui.dir/entity.c.o"
   "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/map.c" "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/gui/CMakeFiles/gui.dir/map.c.o"
-  "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/screen.c" "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/gui/CMakeFiles/gui.dir/screen.c.o"
+  "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/window.c" "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build/gui/CMakeFiles/gui.dir/window.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

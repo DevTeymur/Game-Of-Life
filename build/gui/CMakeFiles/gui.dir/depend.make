@@ -9,9 +9,9 @@ gui/CMakeFiles/gui.dir/map.c.o: ../game/cell.h
 gui/CMakeFiles/gui.dir/map.c.o: ../gui/entity.h
 gui/CMakeFiles/gui.dir/map.c.o: ../gui/map.c
 gui/CMakeFiles/gui.dir/map.c.o: ../gui/map.h
-gui/CMakeFiles/gui.dir/map.c.o: ../gui/screen.h
+gui/CMakeFiles/gui.dir/map.c.o: ../gui/window.h
 
-gui/CMakeFiles/gui.dir/screen.c.o: ../gui/entity.h
-gui/CMakeFiles/gui.dir/screen.c.o: ../gui/screen.c
-gui/CMakeFiles/gui.dir/screen.c.o: ../gui/screen.h
+gui/CMakeFiles/gui.dir/window.c.o: ../gui/entity.h
+gui/CMakeFiles/gui.dir/window.c.o: ../gui/window.c
+gui/CMakeFiles/gui.dir/window.c.o: ../gui/window.h
 

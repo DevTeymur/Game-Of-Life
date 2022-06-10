@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gui.dir/entity.c.o"
   "CMakeFiles/gui.dir/map.c.o"
-  "CMakeFiles/gui.dir/screen.c.o"
+  "CMakeFiles/gui.dir/window.c.o"
   "libgui.a"
   "libgui.pdb"
 )

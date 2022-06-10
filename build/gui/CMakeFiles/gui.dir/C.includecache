@@ -29,12 +29,16 @@ map.h
 /home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/map.h
 unistd.h
 -
-screen.h
-/home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/screen.h
+window.h
+/home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/window.h
 ../game/board.h
 /home/ufaz/Desktop/Uni Projects/Game-Of-Life/game/board.h
 
-/home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/screen.h
+/home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/window.c
+window.h
+/home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/window.h
+
+/home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/window.h
 SDL2/SDL.h
 -
 SDL2/SDL_image.h

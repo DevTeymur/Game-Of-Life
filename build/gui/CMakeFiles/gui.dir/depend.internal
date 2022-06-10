@@ -10,8 +10,8 @@ gui/CMakeFiles/gui.dir/map.c.o
  /home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/entity.h
  /home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/map.c
  /home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/map.h
- /home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/screen.h
-gui/CMakeFiles/gui.dir/screen.c.o
+ /home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/window.h
+gui/CMakeFiles/gui.dir/window.c.o
  /home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/entity.h
- /home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/screen.c
- /home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/screen.h
+ /home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/window.c
+ /home/ufaz/Desktop/Uni Projects/Game-Of-Life/gui/window.h

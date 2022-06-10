@@ -3,7 +3,7 @@
 
 #include <unistd.h>
 
-#include "screen.h"
+#include "window.h"
 #include "../game/board.h"
 
 

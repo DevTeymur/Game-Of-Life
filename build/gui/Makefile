@@ -179,32 +179,32 @@ map.c.s:
 	cd "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build" && $(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/map.c.s
 .PHONY : map.c.s
 
-screen.o: screen.c.o
+window.o: window.c.o
 
-.PHONY : screen.o
+.PHONY : window.o
 
 # target to build an object file
-screen.c.o:
-	cd "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build" && $(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/screen.c.o
-.PHONY : screen.c.o
+window.c.o:
+	cd "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build" && $(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/window.c.o
+.PHONY : window.c.o
 
-screen.i: screen.c.i
+window.i: window.c.i
 
-.PHONY : screen.i
+.PHONY : window.i
 
 # target to preprocess a source file
-screen.c.i:
-	cd "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build" && $(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/screen.c.i
-.PHONY : screen.c.i
+window.c.i:
+	cd "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build" && $(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/window.c.i
+.PHONY : window.c.i
 
-screen.s: screen.c.s
+window.s: window.c.s
 
-.PHONY : screen.s
+.PHONY : window.s
 
 # target to generate assembly for a file
-screen.c.s:
-	cd "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build" && $(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/screen.c.s
-.PHONY : screen.c.s
+window.c.s:
+	cd "/home/ufaz/Desktop/Uni Projects/Game-Of-Life/build" && $(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/window.c.s
+.PHONY : window.c.s
 
 # Help Target
 help:
@@ -221,9 +221,9 @@ help:
 	@echo "... map.o"
 	@echo "... map.i"
 	@echo "... map.s"
-	@echo "... screen.o"
-	@echo "... screen.i"
-	@echo "... screen.s"
+	@echo "... window.o"
+	@echo "... window.i"
+	@echo "... window.s"
 .PHONY : help
 
 
