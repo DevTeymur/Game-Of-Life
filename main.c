@@ -6,13 +6,16 @@
 #include "gui/map.c"
 
 int main(int argc, char * argv[]){
+	
 	if (SDL_Init(SDL_INIT_VIDEO) > 0) {
 		printf("SDL init failed. Error: %s\n", SDL_GetError());
 	}
 
-	if (IMG_Init(IMG_INIT_PNG) == 0) {
-		printf("IMG init failed. Error: %s\n", SDL_GetError());
-	}
+	// if (IMG_Init(IMG_INIT_PNG) == 0) {
+	// 	printf("IMG init failed. Error: %s\n", SDL_GetError());
+	// }
+	IMG_Init(IMG_INIT_PNG);
+
 
 	srand(getpid());
 	

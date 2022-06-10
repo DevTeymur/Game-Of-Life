@@ -15,6 +15,7 @@ Map mapCreate(int width, int height, int cols, int rows) {
   return map;
 }
 
+
 void startGame(Map * map) {
   bool gameRunning = true;
 	SDL_Event event;
@@ -26,6 +27,7 @@ void startGame(Map * map) {
       }
     }
     mapShow(map);
+    // drawAnsi(map);
   }
 
 	SDL_DestroyWindow(map->screen.window);
