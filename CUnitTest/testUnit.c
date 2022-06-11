@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <stdbool.h>
+
 #include "../game/cell.c"
 #include "../game/board.c"
 
