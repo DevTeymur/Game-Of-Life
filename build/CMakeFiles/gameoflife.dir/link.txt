@@ -1,1 +1,0 @@
-/usr/bin/cc   -rdynamic CMakeFiles/gameoflife.dir/main.c.o  -o gameoflife  game/libgame.a gui/libgui.a -lSDL2 -lSDL2_image -lSDL2 
