@@ -19,14 +19,13 @@ apt-cache search libsdl2
 ```
 <br>
 You'll want to download the development version of SDL 2. As of the last update of this tutorial, the development package of SDL 2 is libsdl2-dev. You can install this package using the command:
-
 ```sh
 apt-get install libsdl2-dev
 ```
-### If you are using another system like Windows, macOS etc.<br>
+<br>
+##### If you are using another system like Windows, macOS etc.<br>
 You can look at documentation [here] (https://wiki.libsdl.org/Installation)
-
-sudo apt-get install libsdl2-2.0
+<br>
 
 ### Setting up Image loading library for SDL 2 on Linux <br>
 Install libsdl2-image-dev by entering the following commands in the terminal:
