@@ -37,3 +37,13 @@ Install libsdl2-image-dev by entering the following commands in the terminal:
 sudo apt update
 sudo apt install libsdl2-image-dev
 ```
+
+## CUnit Test
+CUnit is a lightweight system for writing, administering, and running unit tests in C.  It provides C programmers a basic testing functionality with a flexible variety of user interfaces. CUnit is built as a static library which is linked with the user's testing code.  It uses a simple framework for building test structures, and provides a rich set of assertions for testing common data types. <br>
+In this program, in order to check tests, CUnitTest file has to be compiled and run seperately.
+
+```sh
+cd CUnitTest
+gcc testUnit.c -lcunit
+./a.out
+```
