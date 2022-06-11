@@ -18,7 +18,8 @@ For those of you who have Advanced Packaging Tool available (ie Ubuntu and Debia
 apt-cache search libsdl2
 ```
 <br>
-You'll want to download the development version of SDL 2. As of the last update of this tutorial, the development package of SDL 2 is libsdl2-dev. You can install this package using the command
+You'll want to download the development version of SDL 2. As of the last update of this tutorial, the development package of SDL 2 is libsdl2-dev. You can install this package using the command:
+
 ```sh
 apt-get install libsdl2-dev
 ```
