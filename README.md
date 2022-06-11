@@ -22,7 +22,6 @@ You'll want to download the development version of SDL 2. As of the last update 
 ```sh
 apt-get install libsdl2-dev
 ```
-<br>
 ##### If you are using another system like Windows, macOS etc.<br>
 You can look at documentation [here] (https://wiki.libsdl.org/Installation)
 <br>
